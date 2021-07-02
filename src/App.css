@@ -1,0 +1,139 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: url(photo.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.header{
+  /* background-color: #282c34; */
+  width: 100%;
+  height: 4rem  ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /* border-bottom: 11px solid teal; */
+  margin-right: 10px;
+}
+.headtext{
+  color: dodgerblue;
+  font-weight: bolder;
+  font-style:oblique; 
+/* background:linear-gradient(#14ffe9,#ffeb3b,#ff00e0); */
+transition: 0.3s;
+}
+.headtext:hover{
+  color: #d368c5;
+  background: #1e2a96;
+  box-shadow: 0 0 1px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+  transition-delay: 0.1s;
+  
+
+}
+.headtext h2:nth-child(3){
+  top:0;
+  left:-100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#2196f3);
+}
+.headtext:hover h2:nth-child(3){
+  left: 100%;
+transition: 0.5s;
+}
+
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 1rem;
+  padding:2rem ;
+  margin: 2rem;
+
+}
+
+
+.iii{
+  padding: 10px;
+  /* background-color: aliceblue; */
+  text-decoration: none;
+  background-color: Transparent;
+   /* border-bottom: 1px solid black; */
+   color:black ;
+}
+.button{
+  background-color: Transparent;
+  /* background-repeat:no-repeat; */
+  border: none;
+  cursor:pointer;
+  /* overflow: hidden;      */
+  margin: 10px;
+  /* padding: 10px; */
+/* margin-top: 2rem; */
+/* position: relative; */
+/* top: 2rem; */
+/* right: 10rem; */
+/* background: none; */
+width: 11rem;
+height: 20px;
+color: rgb(21, 119, 175);
+font-size: smaller;
+font-weight: bold;
+}
+.button:hover{
+  color: rgb(212, 183, 129);
+}
+.hishead{
+  /* width: 10rem; */
+  /* height:2rem; */
+  
+  text-align: center;
+  
+  /* background-color: cadetblue; */
+}
+
+.hishead p{
+    border-bottom:1px solid #a83ce7;
+    text-shadow: springgreen;
+    color: rgb(24, 224, 17);
+    font-size: xx-large;
+  }
+  .delbutton{
+  background-color: Transparent;
+  border: none;
+  cursor:pointer;
+
+  }
+  
+  .clearall{
+    height: 2rem;
+    width: 12rem;
+    background-color:rgb(17,25,34);
+    color: seashell;
+    margin-top: 2rem;
+    border-radius: 50px;
+    border: none;
+
+  }
+  
+    
+  
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
